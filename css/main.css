@@ -1,0 +1,115 @@
+/* body start */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+/* root */
+:root {
+  --primary: "Roboto", sans-serif;
+  --accent: "Noto Sans", sans-serif;
+  --head-text: "Crimson Text", serif;
+  --primary-font-color: rgb(0, 0, 0);
+  --primary-400: rgba(196, 226, 255, 1);
+  --primary-800: rgb(21, 21, 36);
+  --primary-black: rgb(0, 0, 0);
+}
+/* Top-head */
+body {
+  margin: 0;
+  color: var(--primary-800);
+  font-family: var(--accent);
+}
+/* container-wrap */
+.container-wrapper {
+  width: 100%;
+}
+/* header */
+.main-header {
+  margin: 0 auto;
+  padding-inline: 0.5em;
+  width: 100%;
+  border-bottom: 0.1em solid var(--primary-black);
+  background-color: var(--primary-400);
+}
+.flex-head {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+/* header-logo */
+.header-logo {
+  margin-inline: 2em;
+}
+.header-logo img {
+  border-radius: 3em;
+  width: max(10em, 5em);
+}
+/* header-nav-bar */
+.header-nav-bar {
+  padding: 2em, 0;
+  /* background-color: rgb(194, 166, 114); */
+}
+.header-nav-bar > a {
+  margin-right: 1em;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-font-color, black);
+}
+.header-nav-bar > a:hover {
+  border-bottom: 3px solid black;
+}
+
+.header-nav-bar > button {
+  padding-inline: 2em;
+  padding-block: 1em;
+  border-radius: 2em;
+  background-color: black;
+  color: white;
+  font-weight: 800;
+}
+.header-nav-bar > button:hover {
+  background-color: white;
+  color: black;
+}
+/* header-finished */
+/* main-start */
+.top-head {
+  margin: 0;
+  padding-top: 2.5em;
+  background-color: var(--primary-400);
+  border-bottom: 1px solid black;
+}
+
+.top-head-split {
+  margin-left: 5em;
+}
+.split-flex {
+  display: flex;
+  flex-direction: row;
+  
+}
+.split-items {
+  margin-right: 1em;
+  height: calc(2vh + 20em);
+  background-color: lightgreen;
+}
+/* Left-Content */
+.top-head-left-content{
+    padding-inline: 0.5em;
+}
+.heading{
+    padding-top: 2em;
+}
+.heading > h1{
+    font-size: clamp( 1rem ,1vh);
+}
+.image > img {
+    width: 100%;
+}
