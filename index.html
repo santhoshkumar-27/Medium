@@ -8,17 +8,18 @@
     <meta name="keywords" content="medium, news, kinds new words" />
     <title>Medium</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Noto+Sans&family=Roboto:wght@300&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Noto+Sans&family=Noto+Serif&family=Roboto:wght@300&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/main1.css" />
   </head>
   <body>
     <div class="container-wrapper">
       <header>
         <div class="main-header flex-head">
           <div class="header-logo flex-items">
-            <img src="./image/medium.png" alt="Medium is news transfer" />
+            <img src="./image/logo.png" alt="Medium is news transfer" />
           </div>
           <div class="header-nav-bar flex-items">
             <a href="#" class="link">Our story</a>
@@ -32,19 +33,15 @@
       <main>
         <div class="top-head">
           <div class="top-head-split split-flex">
-            <div class="top-head-left-content split-items">
-              <div class="heading">
-                <h1>Medium is a place to write, read, and connect</h1>
-              </div>
-              <div class="discription">
-                <p>
-                  It's easy and free to post your thinking on any topic and
-                  connect with millions of readers.
-                </p>
-              </div>
-              <div class="button-click">
-                <button class="click">Start Writing</button>
-              </div>
+            <div class="top-head-left-content split-items flex-col">
+              <h1 class="flex-items">
+                Medium is a place to write, read, and connect
+              </h1>
+              <p class="flex-items">
+                It's easy and free to post your thinking on any topic and
+                connect with millions of readers.
+              </p>
+              <div><button class="click flex-items">Start Writing</button></div>
             </div>
             <div class="top-head-right-content split-items">
               <div class="image">
@@ -53,11 +50,23 @@
             </div>
           </div>
         </div>
-        <div class="trending-on-medium"></div>
-        <div class="scroll-content"></div>
-        <div class="sidebar-content">
-          <div class="click-function"></div>
-          <div class="insight"></div>
+        <div class="body-wrapper flex-body">
+          <div id="tom" class="flex-body-items-1">
+            <div class="tom-header">
+              <h2 class="tom-head">Trinding on medium</h2>
+            </div>
+            <div class="tom-container">
+              <div class="tom-number"></div>
+              <div class="tom-content"></div>
+            </div>
+          </div>
+          <div class="main-content flex-body-items-2">
+            <div class="scroll-content"></div>
+            <div class="sidebar-content">
+              <div class="click-function"></div>
+              <div class="insight"></div>
+            </div>
+          </div>
         </div>
       </main>
     </div>

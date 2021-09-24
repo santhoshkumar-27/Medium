@@ -6,7 +6,8 @@
 }
 h1,
 h2,
-h3 {
+h3,
+p {
   margin: 0;
 }
 /* root */
@@ -33,6 +34,7 @@ body {
 .main-header {
   margin: 0 auto;
   padding-inline: 0.5em;
+  padding-block: 1em;
   width: 100%;
   border-bottom: 0.1em solid var(--primary-black);
   background-color: var(--primary-400);
@@ -66,7 +68,7 @@ body {
   border-bottom: 3px solid black;
 }
 
-.header-nav-bar > button {
+button {
   padding-inline: 2em;
   padding-block: 1em;
   border-radius: 2em;
@@ -74,7 +76,7 @@ body {
   color: white;
   font-weight: 800;
 }
-.header-nav-bar > button:hover {
+button:hover {
   background-color: white;
   color: black;
 }
@@ -82,34 +84,51 @@ body {
 /* main-start */
 .top-head {
   margin: 0;
-  padding-top: 2.5em;
   background-color: var(--primary-400);
   border-bottom: 1px solid black;
+  padding-top: 2em;
 }
-
 .top-head-split {
-  margin-left: 5em;
+  margin-inline: 3em;
+  /* background-color: black; */
 }
 .split-flex {
   display: flex;
   flex-direction: row;
-  
+  justify-content: space-between;
 }
 .split-items {
-  margin-right: 1em;
-  height: calc(2vh + 20em);
-  background-color: lightgreen;
+  max-width: 50%;
 }
-/* Left-Content */
-.top-head-left-content{
+.top-head-left-content {
+  max-width: 40%;
+  padding-inline: 2em;
+  /* background-color: white; */
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  justify-content: space-around;
+  align-items:flex-start;
+}
+.flex-items{
+    max-width: 100%;
+}
+.top-head-left-content > h1 {
+  padding: 0 0.5rem;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 800;
+}
+.top-head-left-content > p {
+  padding-inline: 0.5em;
+  opacity: 0.7;
+}
+.top-head-left-content > div {
     padding-inline: 0.5em;
 }
-.heading{
-    padding-top: 2em;
+.top-head-right-content > img{
+  width: 100%;
 }
-.heading > h1{
-    font-size: clamp( 1rem ,1vh);
-}
-.image > img {
-    width: 100%;
-}
+/* Top-header-Ends */
