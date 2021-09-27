@@ -97,3 +97,16 @@ svg{
 .av{
     padding: 1.5625rem 0;
 }
+.aw{
+    height: 4.625rem;
+}
+.am{
+    display: flex;
+}
+.ax{
+    flex-direction: row;
+}
+/* y */
+.y{
+    display: block;
+}
