@@ -33,9 +33,6 @@ p {
 .d {
   display: none;
 }
-.ir {
-  visibility: visible;
-}
 /* div element x y z */
 .x {
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
@@ -82,9 +79,7 @@ p {
   justify-content: center;
 }
 /* ao ap aq ar as at au ae  */
-.ae {
-  width: 100%;
-}
+
 .at {
   max-width: 74.5rem;
 }
@@ -227,3 +222,127 @@ border-radius: 99em;}
 }
 /* Top-header finished And Bottom-Header starts*/
 /* aw y */
+/* header-background-image-other */
+/* y iq cw cx cy cz da db dc */
+.dc{
+    background: none;
+}
+.iq{
+    background-image: url('../image/double_qotation.png')
+}
+.cx{
+    background-size: 21.8125rem 22.0625rem;
+}
+.cw{
+    background-repeat: no-repeat;
+}
+/* am an */
+/* ao ap aq ar as at au ae */
+/* y iq cw dd de df */
+.dd{
+    background-size: 24.0625rem 21.3125rem;
+}
+.df{
+    background-position: bottom 0.0625rem  right 2rem;
+}
+/* dg dh di am dj dk dl dm dn do dp dq */
+.dg{
+    padding-bottom: 1.875rem;
+}
+.dh{
+    padding-top: 2.0625rem;
+}
+.dq{
+    width: 34.375rem;
+}
+.dk{
+    z-index: 2;
+}
+.dj{
+    flex-direction: column;
+}
+.di{
+    height: 100%;
+}
+/* y h bz br bs bt */
+.bz{
+    display: inline-block;
+}
+.bt{
+    display: inline-block;
+}
+/* dr b ds dt du dv dw */
+.dr{
+    font-family:'Times New Roman', Times, serif;
+}
+.ds{
+    font-size: 4.375rem;
+}
+.dt{
+    line-height: 4.625rem;
+}
+.du{
+    letter-spacing: -0.05em;
+}
+.dv{
+    font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.dw{
+    color: rgba(0, 0, 0, 1);
+}
+/* y dx g f e d */
+.d{
+    display: none;
+    /* visibility: hidden; */ /* if we want use to visibility property we put in a element not container*/ 
+}
+
+/* dr b dy dz ea dv dw */
+.dy{
+    font-size: 3rem;
+}
+.dz{
+    line-height: 3.25rem;
+}
+.ea{
+    letter-spacing: -0.04em;
+}
+.cr{
+    flex:1;
+}
+/* header-description */
+/* eb ec y */
+.ec{
+    width: 80%;
+}
+.eb{
+    margin-bottom: 1.5625rem;
+}
+/* bv b ed ee by */
+.ed{
+    font-size: 1.125rem;
+}
+.ee{
+    line-height: 1.5rem;
+}
+/* get-started-button-bottom*/
+.ef{
+    font-size: 1rem;
+}
+.eg{
+    padding: 7px 20px 9px;
+}
+.eh{
+    fill: rgba(41, 41, 41, 1);
+}
+.ei{
+    background: 0;
+}
+.cs button{
+    background: #fff;
+}
+.ct button{
+    border-color: #000;
+}
+.cu button{
+    color: #000;
+}
