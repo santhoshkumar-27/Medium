@@ -1,7 +1,12 @@
-html{
-    font-size: 16px;
+html {
+  font-size: 16px;
 }
-
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  min-height: 100vh;
+}
 *,
 *::before,
 *::after {
@@ -42,71 +47,183 @@ p {
   background: rgb(196, 226, 255);
 }
 /* ab ac ae af ag ah ai aj ak */
-.ab{
-    z-index: 10;
+.ab {
+  z-index: 10;
 }
-.ac{
-    background-color: #C4E2FF;
+.ac {
+  background-color: #c4e2ff;
 }
-.ae{
-    width: 100%;
+.ae {
+  width: 100%;
 }
-.af{
-    border-bottom: 1px solid rgba(41, 41, 41, 4);
+.af {
+  border-bottom: 1px solid rgba(41, 41, 41, 4);
 }
-.ag{
-    position: fixed;
+.ag {
+  position: fixed;
 }
-.ah{
-    top: 0;
+.ah {
+  top: 0;
 }
-.ai{
-    left: 0;
+.ai {
+  left: 0;
 }
-.aj{
-    right: 0;
+.aj {
+  right: 0;
 }
-.ak{
-    transition: background-color 300ms linear;
+.ak {
+  transition: background-color 300ms linear;
 }
 /* am an */
-.am{
-    display: flex;
+.am {
+  display: flex;
 }
-.an{
-    justify-content: center;
-}
-/* svg */
-svg{
-    height: 1.2rem;
+.an {
+  justify-content: center;
 }
 /* ao ap aq ar as at au ae  */
-.ae{
-    width: 100%;
+.ae {
+  width: 100%;
 }
-.at{
-    max-width: 74.5rem;
+.at {
+  max-width: 74.5rem;
 }
-.au{
-    min-width: 0;
+.au {
+  min-width: 0;
 }
-.as{
-    margin: 0 4rem;
+.as {
+  margin: 0 4rem;
 }
 /* av aw am ax */
-.av{
-    padding: 1.5625rem 0;
+.av {
+  padding: 1.5625rem 0;
 }
-.aw{
-    height: 4.625rem;
+.aw {
+  height: 4.625rem;
 }
-.am{
-    display: flex;
+.am {
+  display: flex;
 }
-.ax{
-    flex-direction: row;
+.ax {
+  flex-direction: row;
 }
-/* y */
-.y{
-    display: block;
+
+/* ir */
+.ir {
+  visibility: visible;
 }
+/* ay az ba bb bc bd be bf bg bh bi bj bk bl bm */
+a {
+  text-decoration: none;
+}
+.ay {
+  color: inherit;
+}
+.az {
+  fill: inherit;
+}
+.ba {
+  font-size: inherit;
+}
+.bb {
+  border: inherit;
+}
+.bc {
+  font-family: inherit;
+}
+.bd {
+  letter-spacing: inherit;
+}
+.be {
+  font-weight: inherit;
+}
+.bf {
+  padding: 0;
+}
+.bg {
+  margin: 0;
+}
+/* bn bo */
+.bn {
+  fill: rgba(0, 0, 0, 1);
+}
+.bo {
+  height: 1.5625rem;
+}
+img,
+svg {
+  vertical-align: middle;
+}
+
+/* y bp */
+.bp {
+  flex: 1 0 auto;
+}
+/* am bq ax */
+.bq {
+  align-items: center;
+}
+/* y h g br bs bt */
+.h {
+  display: inline-block;
+}
+/* bu y */
+.bu {
+  margin-right: 1.5625rem;
+}
+/* bv b bw bx by tx*/
+.by {
+  color: rgba(41, 41, 41, 1);
+}
+.bx {
+  line-height: 1.26rem;
+}
+.bw {
+  font-size: 0.875rem;
+}
+.bv {
+  font-family: sans-serif;
+}
+.tx {
+  text-transform: capitalize;
+}
+/* ay az ba bb bc bd be bf bg bh bi bj bk bl bm" */
+
+/* bv b bw bx ca cb cc cd ce cf cg bh ch ci cj ck cl cm cn co cp cq */
+.ca {
+  color: rgba(255, 255, 255, 1);
+}
+.cb {
+  padding: 0.4375rem 1rem 0.5625rem;
+}
+.cc {
+  fill: rgba(255, 255, 255, 1);
+}
+.cd {
+  background-color: rgba(0, 0, 0, 1);
+}
+.ce {
+  border-color: rgba(25, 25, 25, 1);
+}
+.cl {
+border-radius: 99em;}
+.cm{
+    border-width: 1px;
+}
+.cn{
+    border-style: solid;
+}
+.co{
+    box-sizing: border-box;
+}
+.cp{
+    display: inline-block;
+}
+.cq{
+    text-decoration: none;
+}
+.al button{
+    transition: background-color 300ms liner, color 300ms linear;
+}
+/* Top-header finished And Bottom-Header starts*/
+/* aw y */
