@@ -452,8 +452,11 @@ svg {
 .fu{
   line-height: 2.25rem;
 }
+.xa{
+  color: rgba(255, 255, 255, 0.5);
+}
 .fv{
-  color: rgba(230, 230, 230, 1);
+  color: rgb(0, 0, 0);
 }
 .jd{
   font-weight: bold;
@@ -513,7 +516,7 @@ svg {
   letter-spacing: 0;
 }
 h2{
-  margin-block: 0.83em;
+  /* margin-block: 0.83em; */
   margin-inline: 0;
 }
 .ia{
