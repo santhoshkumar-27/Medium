@@ -18,6 +18,15 @@ h3,
 h4,
 h5,
 h6,
+dl,
+dd,
+ol,
+ul,
+menu,
+figure,
+blockquote,
+pre,
+form,
 p {
   margin: 0;
 }
@@ -201,148 +210,332 @@ svg {
   border-color: rgba(25, 25, 25, 1);
 }
 .cl {
-border-radius: 99em;}
-.cm{
-    border-width: 1px;
+  border-radius: 99em;
 }
-.cn{
-    border-style: solid;
+.cm {
+  border-width: 1px;
 }
-.co{
-    box-sizing: border-box;
+.cn {
+  border-style: solid;
 }
-.cp{
-    display: inline-block;
+.co {
+  box-sizing: border-box;
 }
-.cq{
-    text-decoration: none;
+.cp {
+  display: inline-block;
 }
-.al button{
-    transition: background-color 300ms liner, color 300ms linear;
+.cq {
+  text-decoration: none;
+}
+.al button {
+  transition: background-color 300ms liner, color 300ms linear;
 }
 /* Top-header finished And Bottom-Header starts*/
 /* aw y */
 /* header-background-image-other */
 /* y iq cw cx cy cz da db dc */
-.dc{
-    background: none;
+.dc {
+  background: none;
 }
-.iq{
-    background-image: url('../image/double_qotation.png')
+.iq {
+  background-image: url("../image/double_qotation.png");
 }
-.cx{
-    background-size: 21.8125rem 22.0625rem;
+.cx {
+  background-size: 21.8125rem 22.0625rem;
 }
-.cw{
-    background-repeat: no-repeat;
+.cw {
+  background-repeat: no-repeat;
 }
 /* am an */
 /* ao ap aq ar as at au ae */
 /* y iq cw dd de df */
-.dd{
-    background-size: 24.0625rem 21.3125rem;
+.dd {
+  background-size: 24.0625rem 21.3125rem;
 }
-.df{
-    background-position: bottom 0.0625rem  right 2rem;
+.df {
+  background-position: bottom 0.0625rem right 2rem;
 }
 /* dg dh di am dj dk dl dm dn do dp dq */
-.dg{
-    padding-bottom: 1.875rem;
+.dg {
+  padding-bottom: 1.875rem;
 }
-.dh{
-    padding-top: 2.0625rem;
+.dh {
+  padding-top: 2.0625rem;
 }
-.dq{
-    width: 34.375rem;
+.dq {
+  width: 34.375rem;
 }
-.dk{
-    z-index: 2;
+.dk {
+  z-index: 2;
 }
-.dj{
-    flex-direction: column;
+.dj {
+  flex-direction: column;
 }
-.di{
-    height: 100%;
+.di {
+  height: 100%;
 }
 /* y h bz br bs bt */
-.bz{
-    display: inline-block;
+.bz {
+  display: inline-block;
 }
-.bt{
-    display: inline-block;
+.bt {
+  display: inline-block;
 }
 /* dr b ds dt du dv dw */
-.dr{
-    font-family:'Times New Roman', Times, serif;
+.dr {
+  font-family: "Times New Roman", Times, serif;
 }
-.ds{
-    font-size: 4.375rem;
+.ds {
+  font-size: 4.375rem;
 }
-.dt{
-    line-height: 4.625rem;
+.dt {
+  line-height: 4.625rem;
 }
-.du{
-    letter-spacing: -0.05em;
+.du {
+  letter-spacing: -0.05em;
 }
-.dv{
-    font-feature-settings: 'pnum' on, 'lnum' on;
+.dv {
+  font-feature-settings: "pnum" on, "lnum" on;
 }
-.dw{
-    color: rgba(0, 0, 0, 1);
+.dw {
+  color: rgba(0, 0, 0, 1);
 }
 /* y dx g f e d */
-.d{
-    display: none;
-    /* visibility: hidden; */ /* if we want use to visibility property we put in a element not container*/ 
+.d {
+  display: none;
+  /* visibility: hidden; */ /* if we want use to visibility property we put in a element not container*/
 }
 
 /* dr b dy dz ea dv dw */
-.dy{
-    font-size: 3rem;
+.dy {
+  font-size: 3rem;
 }
-.dz{
-    line-height: 3.25rem;
+.dz {
+  line-height: 3.25rem;
 }
-.ea{
-    letter-spacing: -0.04em;
+.ea {
+  letter-spacing: -0.04em;
 }
-.cr{
-    flex:1;
+.cr {
+  flex: 1;
 }
 /* header-description */
 /* eb ec y */
-.ec{
-    width: 80%;
+.ec {
+  width: 80%;
 }
-.eb{
-    margin-bottom: 1.5625rem;
+.eb {
+  margin-bottom: 1.5625rem;
 }
 /* bv b ed ee by */
-.ed{
-    font-size: 1.125rem;
+.ed {
+  font-size: 1.125rem;
 }
-.ee{
-    line-height: 1.5rem;
+.ee {
+  line-height: 1.5rem;
 }
 /* get-started-button-bottom*/
-.ef{
-    font-size: 1rem;
+.ef {
+  font-size: 1rem;
 }
-.eg{
-    padding: 7px 20px 9px;
+.eg {
+  padding: 7px 20px 9px;
 }
-.eh{
-    fill: rgba(41, 41, 41, 1);
+.eh {
+  fill: rgba(41, 41, 41, 1);
 }
-.ei{
-    background: 0;
+.ei {
+  background: 0;
 }
-.cs button{
-    background: #fff;
+.cs button {
+  background: #fff;
 }
-.ct button{
-    border-color: #000;
+.ct button {
+  border-color: #000;
 }
-.cu button{
-    color: #000;
+.cu button {
+  color: #000;
+}
+/* am dj */
+/* eq y */
+.eq{
+  border-top: 1px solid rgba(230, 230, 230, 1);
+}
+/* am an */
+/* ja jb y */
+.ja{
+  padding-bottom: 1rem;
+}
+.jb{
+  padding-top: 2.5rem;
+}
+/* am ax bq hp */
+.hp{
+  margin-bottom: 1rem;
+}
+.jc{
+  margin-right: 0.625rem;
+}
+.path{
+  fill: rgb(255, 255, 255);
+}
+/* by hq hr hs ht by hu */
+.hq{
+  font-weight: 700;
+}
+.hr{
+  font-size: 12px;
+}
+.hs{
+  line-height: 1rem;
+}
+.ht{
+  letter-spacing: 0.083em;
+}
+.hu{
+  text-transform: uppercase;
+}
+/* ae y */
+/* fb am ax fc fd fe ff fg fh fi fj fl fm fn fo fp fq fr */
+.fb{
+  align-items: flex-start;
+}
+.fc{
+  flex-wrap: wrap;
+}
+.fp{
+  width: calc(100% + 32px);
+}
+.fq{
+  margin-left: -1rem;
+}
+.fr{
+  margin-right: -1rem;
+}
+/* Trending medium list */
+.gr{
+  flex-grow: 0;
+}
+.gn{
+  padding-left: 1rem;
+}
+.go{
+  padding-right: 1rem;
+}
+.gp{
+  flex-basis: 33.333333%;
+}
+.di{
+  height: 100%;
+}
+.gs{
+  margin-bottom: 1.5rem;
+}
+.gt{
+  margin-right: 1rem;
+}
+.gu{
+  position: relative;
+}
+.gv{
+  top: -10px;
+}
+.je{
+  width: 40px;
+}
+.jf{
+  flex: 0 0 auto
+}
+.ft{
+  font-size: 1.875rem;
+}
+.fu{
+  line-height: 2.25rem;
+}
+.fv{
+  color: rgba(230, 230, 230, 1);
+}
+.jd{
+  font-weight: bold;
+}
+.hy{
+  margin-bottom: 0.5rem;
+}
+.gy{
+  border-radius: 0.25rem;
+}
+.ha{
+  height: 1.25rem;
+}
+.hb{
+  width: 1.25rem;
+}
+.jg{
+  margin-left: 0.5rem;
+}
+.jo{
+  padding-right: 0.125px;
+}
+.jm{
+  -webkit-box-orient: vertical;
+}
+.jl{
+  -webkite-time-clamp:1;
+}
+.jk{
+  display: -webkit-box;
+}
+.jj{
+  text-overflow: ellipsis;
+}
+.ji{
+  max-height: 1rem;
+}
+.jh{
+  overflow: hidden;
+}
+.hz{
+  font-size: 0.8125rem;
+}
+.fs{
+  font-weight: 500;
+}
+.jp{
+  color: rgb(117, 117, 117);
+}
+.jr{
+  -webkit-line-clamp: 2;
+}
+.jq{
+  max-height: 2.5rem;
+}
+.fv{
+  letter-spacing: 0;
+}
+h2{
+  margin-block: 0.83em;
+  margin-inline: 0;
+}
+.ia{
+  color: rgba(117, 117, 117, 1);
+}
+p{
+  display: block;
+  margin-block: 1em;
+  margin-inline: 0px;
+}
+.jt{
+  padding-right: 0.375rem;
+}
+.js{
+  padding-left: 0.375rem;
+}
+.jw{
+  font-size: 0.9375rem;
+}
+.jv{
+  transform: translateY(-1.25px);
+}
+.ju{
+  fill: rgb(117, 117, 117);
 }
