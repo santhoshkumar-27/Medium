@@ -687,3 +687,55 @@ p {
 .ip{
   margin-right: 1.625rem;
 }
+@media (max-width: 720px){
+  .sa{
+    display: none;
+  }
+}
+@media (max-width: 300px){
+  .sb{
+    display: none;
+  }
+}
+@media (max-width: 768px){
+  .sc{
+    margin: 0 1.5rem;
+  }
+  .sd{display: none;
+  }
+}
+@media (min-width: 720px) and (max-width: 904px){
+  .fl{
+    margin-right: -14px
+  }
+}
+@media (min-width: 720px) and (max-width: 904px){
+  .fk{
+    margin-right: -14px
+  }
+}
+@media (min-width: 720px) and (max-width: 904px){
+  .fj{
+    width: calc(100% + 28px);
+  }
+}
+@media (min-width: 720px) and (max-width: 904px){
+  .gi{
+    max-width: 50%;
+  }
+}
+@media (min-width: 720px) and (max-width: 904px){
+  .gh{
+    flex-basis: 50%;
+  }
+}
+@media (min-width: 720px) and (max-width: 904px){
+  .gg{
+    padding-right: 14px;
+  }
+}
+@media (min-width: 720px) and (max-width: 904px){
+  .gf{
+    padding-left: 14px;
+  }
+}
